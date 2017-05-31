@@ -7,17 +7,9 @@
     "require": {
         "php": ">=5.3.3"
     },
-    "require": {  
-        "sebastianbergmann/git": "dev-master"  
-    },
     "autoload": {
         "classmap": [
             "src/"
         ]
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.1-dev"
-        }
     }
 }
