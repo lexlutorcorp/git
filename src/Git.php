@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace SebastianBergmann\Git;
+namespace lexlutorcorp\Git;
 
 use DateTime;
 
@@ -132,8 +132,8 @@ class Git
  
         if (DIRECTORY_SEPARATOR == '/') {
               $command = 'LC_ALL=en_US.UTF-8 ' . $command;
- +        }else{
- +            $command=str_replace(";","&",$command);
+         }else{
+             $command=str_replace(";","&",$command);
           }
 
         exec($command, $output, $returnValue);
