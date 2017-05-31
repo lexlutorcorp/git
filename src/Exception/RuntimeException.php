@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace SebastianBergmann\Git;
+namespace lexlutorcorp\Git;
 
 class RuntimeException extends \RuntimeException implements Exception
 {
