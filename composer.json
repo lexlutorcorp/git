@@ -1,15 +1,9 @@
 {
-    "name": "sebastian/git",
+    "name": "lexlutorcorp/git",
     "description": "Simple wrapper for Git",
     "keywords": ["git"],
-    "homepage": "http://www.github.com/sebastianbergmann/git",
+    "homepage": "http://www.github.com/lexlutorcorp/git",
     "license": "BSD-3-Clause",
-    "authors": [
-        {
-            "name": "Sebastian Bergmann",
-            "email": "sebastian@phpunit.de"
-        }
-    ],
     "require": {
         "php": ">=5.3.3"
     },
